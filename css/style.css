@@ -79,6 +79,7 @@ header .logo-form .square-red {
   display: flex;
   justify-content: center;
   width: 100%;
+  margin: 150px 0 150px 0;
 }
 .container_category .block_category {
   display: flex;
@@ -91,8 +92,13 @@ header .logo-form .square-red {
   font-weight: 300;
   opacity: 0.3;
 }
-.container_category .block_category ul {
-  font-size: 0.8em;
+.container_category .block_category .list {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+.container_category .block_category .list ul {
+  font-size: 1em;
   list-style: none;
   line-height: 2.5;
 }
@@ -102,7 +108,6 @@ footer {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  margin-top: 100px;
 }
 footer .footer_block {
   display: flex;

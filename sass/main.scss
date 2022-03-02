@@ -100,6 +100,7 @@ header {
     display: flex;
     justify-content: center;
     width: 100%;
+    margin: 150px 0 150px 0;
     .block_category {
         display: flex;
         align-items: flex-start;
@@ -110,11 +111,16 @@ header {
             font-weight: 300;
             opacity: 0.3;
         }
-        ul {
-            font-size: 0.8em;
-            list-style: none;
-            line-height: 2.5;
-        }    
+        .list {
+            display: flex;
+            justify-content: space-between;
+            width: 60%;
+            ul {
+                font-size: 1em;
+                list-style: none;
+                line-height: 2.5;
+            }        
+        }
     }   
 }
 
@@ -125,7 +131,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    margin-top: 100px;
     .footer_block {
         display: flex;
         justify-content: center;
