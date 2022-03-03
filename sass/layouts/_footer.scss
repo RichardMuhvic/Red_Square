@@ -31,7 +31,13 @@ footer {
                 align-items: flex-end;
                 ul {
                     list-style: none;
-                    display: inline;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    margin: 0;
+                    li {
+                        font-size: 2em;
+                    }
                 }
                 div {
                     display: flex;
