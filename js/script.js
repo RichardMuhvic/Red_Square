@@ -2,13 +2,16 @@
 //Blur du body au passage de la souris sur "work" :
 let buttonWork = document.querySelector(".work-anim");
 
-//la souris sur 'work' totu est flou:
+//la souris sur 'work' tout est flou:
 buttonWork.addEventListener("mouseover", function() {
-    document.getElementById("blur").style.filter = "blur(10px)";
+    document.querySelector(".blur").style.filter = "blur(10px)";
+    document.querySelector(".header-title").style.filter = "blur(10px)";
+    document.querySelector(".work-anim").style.filter = "none";
 })
 //la souris en-dehors de 'work', tout est net:
 buttonWork.addEventListener("mouseout", function() {
-    document.getElementById("blur").style.filter = "none";
+    document.querySelector(".blur").style.filter = "none";
+    document.querySelector(".header-title").style.filter = "none";
 })
 //garder le bouton "work" net avec le fond flouté:
 

@@ -7,6 +7,7 @@ header {
         display: flex;
         align-items: center;
         justify-content: center;
+        transition: all 0.1s ease-in; 
         .logo-form {
             display: flex;
             background-color: rgb(96, 217, 238);
