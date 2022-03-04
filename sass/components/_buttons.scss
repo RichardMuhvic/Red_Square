@@ -1,5 +1,5 @@
 .work-anim {
-    transition: transform 0.3s ease-in;
+    transition: transform 0.2s ease-in;
     a {
         text-decoration: none;
         color: $color-white;
@@ -12,6 +12,7 @@
         transform: translateX(8px);
     }
 }
+
 
 
 .appear2 {
@@ -28,5 +29,3 @@
         }
     }
 }
-
-

@@ -1,5 +1,5 @@
 .work-anim {
-  transition: transform 0.3s ease-in;
+  transition: transform 0.2s ease-in;
 }
 .work-anim a {
   text-decoration: none;
@@ -209,6 +209,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: all 0.3s ease-in;
 }
 
 .container_carousel {
